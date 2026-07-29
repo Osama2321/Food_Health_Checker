@@ -13,8 +13,8 @@ def health_score_rule(row):
         score -= 1
 
     if score <= -1:
-        return 0  # Unhealthy
+        return 0  # 
     elif score == 0:
-        return 1  # Moderate
+        return 1  # 
     else:
-        return 2  # Healthy
+        return 2  # 
